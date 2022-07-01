@@ -1,13 +1,12 @@
-/* Universal selectors first */
-/* * {
-    background-color: black;
-} */
+:root {
+    --gentFont: 'Gentium Book Plus', serif;
+}
 
 /* Navigation link styling */
 nav {
     padding-top: 15px;
-    margin-right: 80px;
-    float: right;
+    margin-right: 30px;
+    text-align: right;
     font-family: "MonteCarlo", cursive;
     font-weight: 800;
     font-size: 30px;
@@ -31,7 +30,10 @@ nav ul li a {
 }
 
 body {
-    color: white;
     background-image: url("../images/rosebg.jpeg");
     background-size: 720px 1080px;
+}
+
+section {
+    justify-content: center;
 }
