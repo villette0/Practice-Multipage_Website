@@ -1,8 +1,37 @@
 /* Universal selectors first */
-* {
-    background-color: bisque;
+/* * {
+    background-color: black;
+} */
+
+/* Navigation link styling */
+nav {
+    padding-top: 15px;
+    margin-right: 80px;
+    float: right;
+    font-family: "MonteCarlo", cursive;
+    font-weight: 800;
+    font-size: 30px;
 }
-/* Element selectors */
-header {
-    color:blue;
+
+nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-image: url("../images/goldborder.png");
+    background-size: 120px 110px;
+    background-repeat: no-repeat;
+    /* padding: top right bottom left */
+    padding: 40px 30px 40px 30px; 
+    background-position:center;
+}
+
+body {
+    color: white;
+    background-image: url("../images/rosebg.jpeg");
+    background-size: 720px 1080px;
 }
