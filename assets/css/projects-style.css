@@ -6,8 +6,8 @@
 /* Navigation link styling */
 nav {
     padding-top: 15px;
-    margin-right: 80px;
-    float: right;
+    margin-right: 30px;
+    margin-left: 600px;
     font-family: "MonteCarlo", cursive;
     font-weight: 800;
     font-size: 30px;
@@ -31,14 +31,30 @@ nav ul li a {
 }
 
 body {
-    color: white;
     background-image: url("../images/rosebg.jpeg");
     background-size: 720px 1080px;
 }
 
+section {
+    justify-content: center;
+}
+
+.projects-header {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*If it were text: 
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px; */
+}
+
 .grid-container {
-    padding-left: 50px;
-    border-left: solid var(--dark-blue) 4px;
+    margin-top: 10px;
+    padding: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -51,13 +67,6 @@ body {
     grid-template-rows: repeat(5, 175px); 
     grid-gap: 10px;
     grid-auto-flow: dense;
-}
-
-/* One larger project on grid */
-#project-1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-end: span 2;
 }
 
 .project-image {
