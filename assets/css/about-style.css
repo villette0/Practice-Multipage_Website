@@ -44,8 +44,11 @@ section {
 }
 
 section h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
+    font-family: "MonteCarlo", cursive;
+    color: white;
+    font-size: 70px;
+    filter: drop-shadow(2px 2px 2px black);
 }
 
 section article {
