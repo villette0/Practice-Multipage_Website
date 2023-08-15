@@ -1,4 +1,4 @@
-# Villlette Comfort Portfolio
+# Villlette Portfolio
 
 ## Website Description
 This website contains 4 webpages, the index landing page, about, contact, and projects page which displays a grid of my projects that are linked to their deployed webpages.
@@ -19,14 +19,10 @@ The CSS document includes:
 - CSS
 
 ## Links
-* [Deployed webpage](https://villettec.github.io/Villette_Comfort_Portfolio)
+* [Deployed webpage](https://villette0.github.io/Practice-Multipage_Website)
 
-* [Repository](https://github.com/villettec/Villette_Comfort_Portfolio)
+* [Repository](https://github.com/villette0/Practice-Multipage_Website)
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
 
-## Credit
-Villette Comfort
-
-villette@live.com
